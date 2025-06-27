@@ -40,3 +40,8 @@
 
 https://semver.org/
 npm Deep Dive
+
+
+
+override
+패키지 자신이 참조하고 있는 의존성의 의존성 버전을 수정 가능
