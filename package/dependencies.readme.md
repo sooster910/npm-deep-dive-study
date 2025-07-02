@@ -52,6 +52,6 @@ peerDependencies는 실전에서 어떤 역할을 하나? peerDependencies는 �
 
 예: react-use는 내부적으로 react에 강하게 의존하지만 peerDependencies로 선언
 
-이유는 사용자(호스트)가 react의 정확한 버전을 직접 지정해야 하므로, 의도치 않은 중복 설치나 충돌을 방지할 수 있습니다. 그래서 peerDependencies는 호스트 패키지가 직접 의존성을 제공해야 한다는 것을 명시해야 합니다.
+사용자(호스트)가 react의 정확한 버전을 직접 지정해야 하므로, 의도치 않은 중복 설치나 충돌을 방지할 수 있습니다. 그래서 peerDependencies는 호스트 패키지가 직접 의존성을 제공해야 한다는 것을 명시해야 합니다.
 
 ![react-use](./react-use.png)
